@@ -1,5 +1,18 @@
 {
+  "name": "UBot-node",
+  "author": {
+    "name": "UEthel-Yunyize",
+    "email": "yunyize@yunyize.com",
+    "url": "http://blog.yunyize.com:81/"
+  },
+  "version": "0.0.1",
+  "license": "GPL-2",
+  "repository": "git@gitee.com:uEthel_Yunyize/ubot.git",
+  "main": "./index.js",
   "dependencies": {
     "ws": "^8.5.0"
+  },
+  "script": {
+    "start": ""
   }
 }
