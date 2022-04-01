@@ -11,7 +11,7 @@ try {
         if (Object.hasOwnProperty.call(config.usePlugins, key)) {
             let e = config.usePlugins[key];
             enablePlugins.push(require(e.path)(e.opt))
-            unit.log(`${e.name}加载完成。`)
+            unit.log(`${e.name}加载完成。`, 'Pluginloading')
         }
     }
 
